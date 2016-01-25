@@ -1,4 +1,10 @@
-
+describe('ToDo', function() {
+	it("creates a new Task object with the given properties", function() {
+		var testToDo = new ToDo("Eat my greens", "Jan 19");
+		expect(testToDo.task).to.equal("Eat my greens");
+		expect(testToDo.dueDate).to.equal("Jan 19");
+	});
+});
 
 
 
