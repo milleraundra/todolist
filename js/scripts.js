@@ -17,14 +17,6 @@ $(document).ready(function() {
 		$("input#new-task").val("");
 	 	$("input#new-due-date").val("");
 
-// $( "#target" ).toggle(function() {
-//   alert( "First handler for .toggle() called." );
-// }, function() {
-//   alert( "Second handler for .toggle() called." );
-// });
-
-
-
 		$("ul#todos").children("li").click(function() {
 			$("ul#completed").append(this);
 		$("ul#completed").children("li").click(function() {
@@ -34,16 +26,5 @@ $(document).ready(function() {
 				});
 			});
 		});
-
-
-
-
-		// $("ul#completed").children("li").click(function() {
-		// 	$("ul#todos").append(this);
-		//
-		//
-		// 	});
-		});
-
-
 	});
+});
